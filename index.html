@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Typing Game</title>
+    <link rel="shortcut icon" href="favicon/favicon2.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <button type="submit" id="start-button" class="button">plAy</button>
+    <button
+      onClick="window.location.href=window.location.href"
+      class="button-again"
+      id="retry-button"
+    >
+      ↻
+    </button>
+    <div id="stats">
+      <ul id="list">
+        <li id="infoText">Time</li>
+        <li id="time-elapsed"></li>
+        <br />
+        <li id="infoText">WPM</li>
+        <li id="wpm"></li>
+        <br />
+        <li id="infoText">Accuracy</li>
+        <li id="accuracy"></li>
+        <li id="correctInput"></li>
+        <li id="incorrectInput"></li>
+      </ul>
+    </div>
+    <div id="text"></div>
+    <script src="words.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
