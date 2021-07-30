@@ -1,1 +1,1 @@
-LIVE DEMO:- https://rohan99201.github.io/typing/
+LIVE DEMO:- ttps://rohan99201.github.io/TYPING-GAME/
